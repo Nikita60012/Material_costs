@@ -42,7 +42,7 @@
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand">Учёт материальных расходов</a></div>          
+                    <a class="navbar-brand" aria-disabled="True">Учёт материальных расходов</a></div>          
             </div>
         </div>
         <div class="container body-content">

@@ -3,11 +3,11 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:LinkButton ID="RegLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="18pt" Visible="False" ForeColor="Black">Регистрация</asp:LinkButton>
+                <asp:LinkButton ID="RegLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="18pt" Visible="False" ForeColor="Black" PostBackUrl="~/Registration.aspx">Регистрация</asp:LinkButton>
                 &nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="ChangeUserLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="18pt" PostBackUrl="~/Default.aspx" CausesValidation="False" ForeColor="Black">Смена пользователя</asp:LinkButton>
                    &nbsp;&nbsp;&nbsp;
-                   <asp:LinkButton ID="ExitLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="18pt" PostBackUrl="~/Default.aspx" ForeColor="Black">Выход</asp:LinkButton>          
+                   <asp:LinkButton ID="ExitLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="18pt" ForeColor="Black" OnClick="ExitLinkButton_Click">Выход</asp:LinkButton>          
             </h2>
     <h2>
         <asp:HyperLink ID="AddHyperLink" runat="server" Font-Names="Times New Roman" Font-Size="18pt" ForeColor="Black">Добавить новую запись</asp:HyperLink>
@@ -16,7 +16,7 @@
     <p style="font-family: 'Times New Roman'; font-size: 18px">
         Страница для добавления новых записей солгасно стандартам или ручным вводом затрат</p>
 <p>
-        <asp:Button ID="AddPageButton" runat="server" Height="28px" Text="&gt;&gt;&gt;" Width="128px" Font-Size="12pt" Font-Bold="False" />
+        <asp:Button ID="AddPageButton" runat="server" Height="28px" Text="&gt;&gt;&gt;" Width="128px" Font-Size="12pt" Font-Bold="False" PostBackUrl="~/Adding.aspx" />
 </p>
 <p>
         &nbsp;</p>
