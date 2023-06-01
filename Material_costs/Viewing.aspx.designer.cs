@@ -11,7 +11,7 @@ namespace Material_costs
 {
 
 
-    public partial class Registration
+    public partial class Viewing
     {
 
         /// <summary>
@@ -24,30 +24,12 @@ namespace Material_costs
         protected global::System.Web.UI.WebControls.LinkButton BackButton;
 
         /// <summary>
-        /// LoginTextBox элемент управления.
+        /// GridView1 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox LoginTextBox;
-
-        /// <summary>
-        /// PasswordTextBox элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически созданное поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PasswordTextBox;
-
-        /// <summary>
-        /// RegButton элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически созданное поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button RegButton;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }

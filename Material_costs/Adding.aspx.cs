@@ -13,5 +13,25 @@ namespace Material_costs
         {
 
         }
+        protected void IsStandart_CheckedChanged(object sender, EventArgs e)
+        {
+            if (IsStandart.Checked == true)
+            {
+                AluminumTextBox.Enabled = false;
+                CopperWireTextBox.Enabled = false;
+                OilTextBox.Enabled = false;
+            }
+            else
+            {
+                AluminumTextBox.Enabled = true;
+                CopperWireTextBox.Enabled = true;
+                OilTextBox.Enabled = true;
+            }
+        }
+
+        protected void AddButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
