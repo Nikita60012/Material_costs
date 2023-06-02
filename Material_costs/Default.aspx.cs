@@ -9,6 +9,7 @@ namespace Material_costs
 {
     public partial class _Default : Page
     {
+        public static bool[] isLogIn = new bool[2];
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -18,17 +19,26 @@ namespace Material_costs
         {
             string login = Convert.ToString(LoginTextBox.Text);
             string password = Convert.ToString(PasswordTextBox.Text);
-            if(login.Equals("nik") && password.Equals("123"))
+            isLogIn = Accaunts.AdminCheck(login, password);
+            
+          
+            if (isLogIn[0])
             {
-                incorrectLabel.Text = "Здравствуйте";
-                incorrectLabel.Visible = true;
+                incorrectLabel.Visible = false;
                 Response.Redirect("MainMenu.aspx");
             }
             else
             {
-                incorrectLabel.Text = "Логин или пароль неверны";
                 incorrectLabel.Visible = true;
             }
+        }
+        public void auth()
+        {
+            Response.Redirect("MainMenu.aspx");
+        }
+        public static bool[] GetAdmin()
+        {
+            return isLogIn;
         }
     }
 }

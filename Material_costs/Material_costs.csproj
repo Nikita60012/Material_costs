@@ -161,6 +161,7 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accaunts.cs" />
     <Compile Include="Adding.aspx.cs">
       <DependentUpon>Adding.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -42,7 +42,14 @@
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" aria-disabled="True">Учёт материальных расходов</a></div>          
+                    <a class="navbar-brand" aria-disabled="True">Учёт материальных расходов</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="RegLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="14pt" ForeColor="#A4A7AA" OnClick="RegLinkButton_Click" PostBackUrl="~/Registration.aspx" Visible="False">Регистрация</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="ChangeUserLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="14pt" ForeColor="#A4A7AA" PostBackUrl="~/Default.aspx" Visible="False">Смена пользователя</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="ExitLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="14pt" ForeColor="#A4A7AA" OnClick="ExitLinkButton_Click" Visible="False">Выход</asp:LinkButton>
+                </div>
+                
             </div>
         </div>
         <div class="container body-content">

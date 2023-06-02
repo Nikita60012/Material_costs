@@ -60,13 +60,13 @@ namespace Material_costs
         protected global::System.Web.UI.WebControls.Button AddPageButton;
 
         /// <summary>
-        /// AddHyperLink0 элемент управления.
+        /// ViewHyperLink элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink AddHyperLink0;
+        protected global::System.Web.UI.WebControls.HyperLink ViewHyperLink;
 
         /// <summary>
         /// ViewPageButton элемент управления.

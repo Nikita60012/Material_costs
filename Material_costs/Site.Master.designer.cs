@@ -15,6 +15,33 @@ namespace Material_costs
     {
 
         /// <summary>
+        /// RegLinkButton элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически созданное поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton RegLinkButton;
+
+        /// <summary>
+        /// ChangeUserLinkButton элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически созданное поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton ChangeUserLinkButton;
+
+        /// <summary>
+        /// ExitLinkButton элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически созданное поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton ExitLinkButton;
+
+        /// <summary>
         /// MainContent элемент управления.
         /// </summary>
         /// <remarks>
