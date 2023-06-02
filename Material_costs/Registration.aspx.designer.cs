@@ -11,7 +11,7 @@ namespace Material_costs
 {
 
 
-    public partial class Registration
+    public partial class Contact
     {
 
         /// <summary>
@@ -24,30 +24,39 @@ namespace Material_costs
         protected global::System.Web.UI.WebControls.LinkButton BackButton;
 
         /// <summary>
-        /// LoginTextBox элемент управления.
+        /// Date элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox LoginTextBox;
+        protected global::System.Web.UI.WebControls.Calendar Date;
 
         /// <summary>
-        /// PasswordTextBox элемент управления.
+        /// ProductsTextBox элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PasswordTextBox;
+        protected global::System.Web.UI.WebControls.TextBox ProductsTextBox;
 
         /// <summary>
-        /// RegButton элемент управления.
+        /// IsStandart элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button RegButton;
+        protected global::System.Web.UI.WebControls.CheckBox IsStandart;
+
+        /// <summary>
+        /// AddButton элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически созданное поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button AddButton;
     }
 }

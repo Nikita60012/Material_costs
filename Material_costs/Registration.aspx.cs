@@ -13,16 +13,5 @@ namespace Material_costs
         {
 
         }
-
-
-        protected void PasswordTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

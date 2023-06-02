@@ -17,7 +17,7 @@ namespace Material_costs
 
         protected void ExitLinkButton_Click(object sender, EventArgs e)
         {
-            ClientScript.RegisterStartupScript(typeof(Page), "closePage", "window.close()", true);
+            Page.Dispose();
         }
     }
 }
