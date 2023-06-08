@@ -18,7 +18,7 @@ namespace Material_costs
         /// RegLinkButton элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton RegLinkButton;
@@ -27,7 +27,7 @@ namespace Material_costs
         /// ChangeUserLinkButton элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton ChangeUserLinkButton;
@@ -36,7 +36,7 @@ namespace Material_costs
         /// ExitLinkButton элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton ExitLinkButton;
@@ -45,7 +45,7 @@ namespace Material_costs
         /// MainContent элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;

@@ -11,52 +11,52 @@ namespace Material_costs
 {
 
 
-    public partial class MainMenu
+    public partial class Viewing
     {
 
         /// <summary>
-        /// AddHyperLink элемент управления.
+        /// BackButton элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink AddHyperLink;
+        protected global::System.Web.UI.WebControls.LinkButton BackButton;
 
         /// <summary>
-        /// AddPageButton элемент управления.
+        /// GridView элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AddPageButton;
+        protected global::System.Web.UI.WebControls.GridView GridView;
 
         /// <summary>
-        /// ViewHyperLink элемент управления.
+        /// AluminiumTextBox элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink ViewHyperLink;
+        protected global::System.Web.UI.WebControls.TextBox AluminiumTextBox;
 
         /// <summary>
-        /// ViewPageButton элемент управления.
+        /// CopperWireTextBox элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ViewPageButton;
+        protected global::System.Web.UI.WebControls.TextBox CopperWireTextBox;
 
         /// <summary>
-        /// DownloadDataButton элемент управления.
+        /// OilTextBox элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DownloadDataButton;
+        protected global::System.Web.UI.WebControls.TextBox OilTextBox;
     }
 }
