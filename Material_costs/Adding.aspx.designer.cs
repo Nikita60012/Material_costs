@@ -11,79 +11,79 @@ namespace Material_costs
 {
 
 
-    public partial class MainMenu
+    public partial class Adding
     {
 
         /// <summary>
-        /// RegLinkButton элемент управления.
+        /// BackButton элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton RegLinkButton;
+        protected global::System.Web.UI.WebControls.LinkButton BackButton;
 
         /// <summary>
-        /// ChangeUserLinkButton элемент управления.
+        /// Date элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton ChangeUserLinkButton;
+        protected global::System.Web.UI.WebControls.Calendar Date;
 
         /// <summary>
-        /// ExitLinkButton элемент управления.
+        /// ProductsTextBox элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton ExitLinkButton;
+        protected global::System.Web.UI.WebControls.TextBox ProductsTextBox;
 
         /// <summary>
-        /// AddHyperLink элемент управления.
+        /// AluminiumTextBox элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink AddHyperLink;
+        protected global::System.Web.UI.WebControls.TextBox AluminiumTextBox;
 
         /// <summary>
-        /// AddPageButton элемент управления.
+        /// IsStandart элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AddPageButton;
+        protected global::System.Web.UI.WebControls.CheckBox IsStandart;
 
         /// <summary>
-        /// ViewHyperLink элемент управления.
+        /// CopperWireTextBox элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink ViewHyperLink;
+        protected global::System.Web.UI.WebControls.TextBox CopperWireTextBox;
 
         /// <summary>
-        /// ViewPageButton элемент управления.
+        /// OilTextBox элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ViewPageButton;
+        protected global::System.Web.UI.WebControls.TextBox OilTextBox;
 
         /// <summary>
-        /// DownloadDataButton элемент управления.
+        /// AddButton элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DownloadDataButton;
+        protected global::System.Web.UI.WebControls.Button AddButton;
     }
 }

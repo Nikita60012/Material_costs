@@ -10,7 +10,7 @@
         <br />
        
         <p style="font-family: 'Times New Roman'; font-size: 28px">Пароль: </p>
-        <asp:TextBox ID="PasswordTextBox" runat="server" Font-Names="Times New Roman" Height="25px" Width="196px"></asp:TextBox>
+        <asp:TextBox ID="PasswordTextBox" runat="server" Font-Names="Times New Roman" Height="25px" Width="196px" TextMode="Password"></asp:TextBox>
         <br />
         <br />
         <br />

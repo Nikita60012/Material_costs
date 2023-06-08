@@ -11,43 +11,43 @@ namespace Material_costs
 {
 
 
-    public partial class SiteMaster
+    public partial class Registration
     {
 
         /// <summary>
-        /// RegLinkButton элемент управления.
+        /// BackButton элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton RegLinkButton;
+        protected global::System.Web.UI.WebControls.LinkButton BackButton;
 
         /// <summary>
-        /// ChangeUserLinkButton элемент управления.
+        /// LoginTextBox элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton ChangeUserLinkButton;
+        protected global::System.Web.UI.WebControls.TextBox LoginTextBox;
 
         /// <summary>
-        /// ExitLinkButton элемент управления.
+        /// PasswordTextBox элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton ExitLinkButton;
+        protected global::System.Web.UI.WebControls.TextBox PasswordTextBox;
 
         /// <summary>
-        /// MainContent элемент управления.
+        /// RegButton элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.Button RegButton;
     }
 }

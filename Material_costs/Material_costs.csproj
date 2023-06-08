@@ -105,8 +105,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Adding.aspx" />
     <Content Include="MainMenu.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="Registration.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -160,6 +161,14 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accaunts.cs" />
+    <Compile Include="Adding.aspx.cs">
+      <DependentUpon>Adding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adding.aspx.designer.cs">
+      <DependentUpon>Adding.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="MainMenu.aspx.cs">
       <DependentUpon>MainMenu.aspx</DependentUpon>
@@ -169,12 +178,12 @@
       <DependentUpon>MainMenu.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
