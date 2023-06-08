@@ -41,7 +41,7 @@
 <!-- GETTING STARTED -->
 ## Начало работы
 
-Для того чтобы запустить данный проект требуется скачать и установить [Visual Studio](https://visualstudio.microsoft.com/ru/). После выбрать этот проект и запустить его ([подробности смотрите в руководстве пользователя](https://github.com/Nikita60012/Flight-scoreboard/wiki/Руководство-пользователя)).
+Для того чтобы запустить данный проект требуется скачать и установить [Visual Studio](https://visualstudio.microsoft.com/ru/). После выбрать этот проект и запустить его ([подробности смотрите в руководстве пользователя](https://github.com/Nikita60012/Material_costs/wiki/Руководство-пользователя)).
 
 
 <!-- USAGE EXAMPLES -->
