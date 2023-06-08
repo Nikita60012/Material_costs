@@ -15,37 +15,10 @@ namespace Material_costs
     {
 
         /// <summary>
-        /// RegLinkButton элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически созданное поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton RegLinkButton;
-
-        /// <summary>
-        /// ChangeUserLinkButton элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически созданное поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton ChangeUserLinkButton;
-
-        /// <summary>
-        /// ExitLinkButton элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически созданное поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton ExitLinkButton;
-
-        /// <summary>
         /// AddHyperLink элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink AddHyperLink;
@@ -54,7 +27,7 @@ namespace Material_costs
         /// AddPageButton элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button AddPageButton;
@@ -63,7 +36,7 @@ namespace Material_costs
         /// ViewHyperLink элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink ViewHyperLink;
@@ -72,7 +45,7 @@ namespace Material_costs
         /// ViewPageButton элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ViewPageButton;
@@ -81,7 +54,7 @@ namespace Material_costs
         /// DownloadDataButton элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button DownloadDataButton;

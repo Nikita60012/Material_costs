@@ -17,7 +17,7 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
-<body>
+<body style="background-image: url('/baсkground.png')">
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -39,25 +39,26 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar navbar-inverse navbar-fixed-top" style="border-style: none; background-color: #008000">
+            <div class="navbar navbar-inverse navbar-fixed-right" style="border-style: none; position: fixed; right: inherit; top: inherit; background-color: #008000;">
+                    <asp:LinkButton ID="RegLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="14pt" ForeColor="Silver" PostBackUrl="~/Registration.aspx" Visible="False" >Регистрация</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="ChangeUserLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="14pt" ForeColor="Silver" Visible="False" OnClick="ChangeUserLinkButton_Click">Смена пользователя</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="ExitLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="14pt" ForeColor="Silver" OnClick="ExitLinkButton_Click">Выход</asp:LinkButton>
+                    </div>
             <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" aria-disabled="True">Учёт материальных расходов</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:LinkButton ID="RegLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="14pt" ForeColor="#A4A7AA" OnClick="RegLinkButton_Click" PostBackUrl="~/Registration.aspx" Visible="False">Регистрация</asp:LinkButton>
-&nbsp;&nbsp;&nbsp;
-                    <asp:LinkButton ID="ChangeUserLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="14pt" ForeColor="#A4A7AA" PostBackUrl="~/Default.aspx" Visible="False">Смена пользователя</asp:LinkButton>
-&nbsp;&nbsp;&nbsp;
-                    <asp:LinkButton ID="ExitLinkButton" runat="server" Font-Names="Times New Roman" Font-Size="14pt" ForeColor="#A4A7AA" OnClick="ExitLinkButton_Click" Visible="False">Выход</asp:LinkButton>
-                </div>
+                <div class="navbar-header" style="background-color: #008000">
+                    <a class="navbar-brand" aria-disabled="True" style="border-style: none; background-color: #008000; font-family: 'Times New Roman', Times, serif; color: silver; font-size: 20px;">Учёт материальных расходов</a></div>
                 
             </div>
         </div>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
+            <hr  />
             <footer>
-                <p>&copy; <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>- My WEB Application ASP.NET</p>
+                <p style="font-family: 'Times New Roman', Times, serif; font-size: 18px; color: silver">&copy; - My WEB Application ASP.NET</p>
             </footer>
         </div>
 

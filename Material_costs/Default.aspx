@@ -14,7 +14,7 @@
         <br />
         <br />
         <br />
-        <asp:Button ID="LogInButton" runat="server" Font-Bold="True" Font-Names="Times New Roman" Font-Size="Larger" Height="35px" OnClick="Button1_Click" Text="Войти" Width="127px" />
+        <asp:Button ID="LogInButton" runat="server" Font-Bold="True" Font-Names="Times New Roman" Font-Size="Larger" Height="35px" OnClick="LogInButton_Click" Text="Войти" Width="127px" />
         <br />
         <br />
         <asp:Label ID="incorrectLabel" runat="server" Font-Names="Times New Roman" Font-Size="18pt" Text="Логин или пароль неверны" Visible="False"></asp:Label>
