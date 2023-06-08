@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/Nikita60012/Materila_costs">    
-    <img src="https://github.com/Nikita60012/Material_costs/assets/96587581/ce9af0f5-5b22-4e7a-93e2-fc75b32f1bfd" alt="Logo"  width="120" height="120">
+    <img src="https://github.com/Nikita60012/Material_costs/assets/96587581/c15b7969-f3ec-4474-a3b3-8e122e4fcf68" alt="Logo"  width="120" height="120">
   </a>
 
 
