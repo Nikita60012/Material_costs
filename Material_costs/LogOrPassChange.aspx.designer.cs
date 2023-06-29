@@ -11,61 +11,61 @@ namespace Material_costs
 {
 
 
-    public partial class MainMenu
+    public partial class LogOrPassChange
     {
 
         /// <summary>
-        /// LinkButton1 элемент управления.
+        /// BackButton элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkButton1;
+        protected global::System.Web.UI.WebControls.LinkButton BackButton;
 
         /// <summary>
-        /// AddHyperLink элемент управления.
+        /// NewLoginTextBox элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink AddHyperLink;
+        protected global::System.Web.UI.WebControls.TextBox NewLoginTextBox;
 
         /// <summary>
-        /// AddPageButton элемент управления.
+        /// NewPasswordTextBox элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AddPageButton;
+        protected global::System.Web.UI.WebControls.TextBox NewPasswordTextBox;
 
         /// <summary>
-        /// ViewHyperLink элемент управления.
+        /// OldPasswordTextBox элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink ViewHyperLink;
+        protected global::System.Web.UI.WebControls.TextBox OldPasswordTextBox;
 
         /// <summary>
-        /// ViewPageButton элемент управления.
+        /// incorrectLabel элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ViewPageButton;
+        protected global::System.Web.UI.WebControls.Label incorrectLabel;
 
         /// <summary>
-        /// DownloadDataButton элемент управления.
+        /// ChangeButton элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DownloadDataButton;
+        protected global::System.Web.UI.WebControls.Button ChangeButton;
     }
 }

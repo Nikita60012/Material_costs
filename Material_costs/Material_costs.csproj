@@ -198,7 +198,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Adding.aspx" />
+    <Content Include="AllUserTables.aspx" />
     <Content Include="baсkground.png" />
+    <Content Include="LogOrPassChange.aspx" />
     <Content Include="MainMenu.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -263,7 +265,21 @@
     <Compile Include="Adding.aspx.designer.cs">
       <DependentUpon>Adding.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AllUserTables.aspx.cs">
+      <DependentUpon>AllUserTables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllUserTables.aspx.designer.cs">
+      <DependentUpon>AllUserTables.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="LogOrPassChange.aspx.cs">
+      <DependentUpon>LogOrPassChange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOrPassChange.aspx.designer.cs">
+      <DependentUpon>LogOrPassChange.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DataConnection.cs" />
     <Compile Include="MainMenu.aspx.cs">
       <DependentUpon>MainMenu.aspx</DependentUpon>

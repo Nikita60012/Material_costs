@@ -39,5 +39,10 @@ namespace Material_costs
         {
             return isLogIn;
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

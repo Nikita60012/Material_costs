@@ -14,17 +14,19 @@ namespace Material_costs
 
         }
 
-        //Закрытие приложения
-        protected void ExitLinkButton_Click(object sender, EventArgs e)
-        {
-            ClientScript.RegisterStartupScript(typeof(System.Web.UI.Page), "closePage", "window.close()", true);
-        }
-
         //Скачивание записей о материальных затратах в отдельный .xlsx файл
         protected void DownloadDataButton_Click(object sender, EventArgs e)
         {
-            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\CostTables";
-            CreateExcelFile(desktopPath);
+            bool[] isAdmin = _Default.GetAdmin();
+            if (isAdmin[1])
+            {
+                Response.Redirect("AllUserTables");
+            }
+            else
+            {
+                string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\CostTables";
+                CreateExcelFile(desktopPath);
+            }
         }
         
         //Создание файла и перенос в него данных
